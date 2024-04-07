@@ -39,8 +39,8 @@ public:
     double findXofTheArc(double sweepLine);
 
     std::pair<int, int> m_indecies;
-    Node* m_pLeft, * m_pRight;
-    Node* m_pPrev, * m_pNext;
+    Node* m_pLeft, *m_pRight;
+    Node* m_pPrev, *m_pNext;
     Node* m_pParent;
     double m_sweepline;
 
