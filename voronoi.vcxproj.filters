@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{30907224-5b24-4413-9058-ca2385750880}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{d191be2d-8571-4c83-b3c6-5df92c090869}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\BeachLine.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DrawGraph.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\matplotlibcpp.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\misc.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Node.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Point2d.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\voronoi.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\BeachLine.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DrawGraph.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Node.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Point2d.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\voronoi.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+</Project>
